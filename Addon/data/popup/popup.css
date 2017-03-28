@@ -133,6 +133,7 @@ tr td[type='selected'] {
 }
 
 /*  */
+#bot {background: url(./icons/32/bot.png) no-repeat center center;}
 #ios {background: url(./icons/32/ios.png) no-repeat center center;}
 #android {background: url(./icons/32/android.png) no-repeat center center;}
 #windowsp {background: url(./icons/32/windowsp.png) no-repeat center center;}

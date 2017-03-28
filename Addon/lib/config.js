@@ -13,6 +13,7 @@ config.badge = {
 };
 
 var defaultUAObj = {
+  bot: "Googlebot/2.1 (+http://www.googlebot.com/bot.html)",
   ios: "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) CriOS/48.0.2526.70 Mobile/13C71 Safari/601.1.46",
   android: "Mozilla/5.0 (Linux; U; Android 4.4.4; Nexus 5 Build/KTU84P) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.30",
   windowsp: "Mozilla/5.0 (compatible; MSIE 9.0; Windows Phone OS 7.5; Trident/5.0; IEMobile/9.0)",
@@ -100,7 +101,7 @@ var defaultUAObj = {
     netbsd: "Mozilla/5.0 (X11; U; NetBSD i686; en-GB; Gecko/20130308 Firefox/33.0 (PaleMoon/25.1)"
   },
   seamonkey: {
-    windows: "Mozilla/5.0 (Windows NT 5.2; rv:7.0a1; ru) Gecko/20110622 SeaMonkey/2.4a1",
+    windowsd: "Mozilla/5.0 (Windows NT 5.2; rv:7.0a1; ru) Gecko/20110622 SeaMonkey/2.4a1",
     mac: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.6.8; U; en; rv:7.0a1) Gecko/20110622 SeaMonkey/2.4",
     linux: "Mozilla/5.0 (X11; U; Linux i686; fr-fr; rv:25.6) Gecko/20150723 FGecko/20110622 SeaMonkey/2.4a1",     
     chromeOS: "",
@@ -110,7 +111,7 @@ var defaultUAObj = {
     netbsd: "Mozilla/5.0 (X11; U; NetBSD i386; en-GB; rv:25.6) Gecko/20150723 FGecko/20110622 SeaMonkey/2.4a1"
   },
   Tor: {
-    windows: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
+    windowsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
     mac: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
     linux: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",     
     chromeOS: "",
@@ -120,7 +121,7 @@ var defaultUAObj = {
     netbsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0"
   },
   edge: {
-    windows: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393",
+    windowsd: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393",
     mac: "",
     linux: "",
     chromeOS: "",
