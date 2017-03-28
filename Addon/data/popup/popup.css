@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  width: 480px;
+  height: 322px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0 2px 0 0;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  -moz-user-select: none;
+}
+
+table {
+  width: 100%;
+  empty-cells: show;
+  border-spacing: 0px 3px;
+}
+
+tr td {
+  height: 46px;
+  border: 2px solid transparent;
+  -moz-transition: 200ms all;
+  -webkit-transition: 200ms all; 
+}
+
+tr td:hover {
+  cursor: pointer;
+  border: 2px solid red;
+  box-shadow: 0 0 2px red;
+}
+
+tr td[type='selected'] {
+  border: 2px solid green;
+  box-shadow: 0 0 2px green;
+}
+
+#mobile-browsers, #footer {
+  height: 100%;
+}
+
+#desktop-browsers, #operating-systems {
+  height: 50%;
+}
+
+#section-1, #section-2, #section-3 {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.1);
+}
+
+#section-2 {
+  margin: 3px 0 0 0;
+}
+
+#section-3 {
+  font-size: 14px;
+  margin: 3px 0 0 0;
+}
+
+.description {
+  height: 20px;
+  font-size: 12px;
+  text-align: center;
+  border: 0 !important;
+  background-color: #F5F5F5;
+  cursor: default !important;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+
+.description:hover {
+  box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+
+.footer {
+  height: 24px;
+  min-height: 24px;
+  max-height: 24px;
+  text-align: center;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  width: 45px;
+  min-width: 45px;
+  max-width: 45px;
+}
+
+.button:hover {
+  background-color: #A8A8A8 !important;
+}
+
+#faq {
+  background: url(./faq.png) no-repeat center center;
+}
+
+#bug {
+  background: url(./bug.png) no-repeat center center;
+}
+
+#default {
+  background: url(./default.png) no-repeat center center;
+}
+
+#copy {
+  background: url(./copy.png) no-repeat center center;
+}
+
+#status-td {
+  width: 100%;
+  cursor: default;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#url {
+  border: 0;
+  width: 96%;
+  height: 100%;
+  padding: 0 7px;
+  font-size: 12px;
+  outline: solid 1px #999;
+}
+
+/*  */
+#ios {background: url(./icons/32/ios.png) no-repeat center center;}
+#android {background: url(./icons/32/android.png) no-repeat center center;}
+#windowsp {background: url(./icons/32/windowsp.png) no-repeat center center;}
+#tizen {background: url(./icons/32/tizen.png) no-repeat center center;}
+#symbian {background: url(./icons/32/symbian.png) no-repeat center center;}
+#firefoxos {background: url(./icons/32/firefoxos.png) no-repeat center center;}
+
+#chrome {background: url(./icons/32/chrome.png) no-repeat center center;}
+#opera {background: url(./icons/32/opera.png) no-repeat center center;}
+#firefox {background: url(./icons/32/firefox.png) no-repeat center center;}
+#safari {background: url(./icons/32/safari.png) no-repeat center center;}
+#explorer {background: url(./icons/32/explorer.png) no-repeat center center;}
+#edge {background: url(./icons/32/edge.png) no-repeat center center;}
+#midori {background: url(./icons/32/midori.png) no-repeat center center;}
+#rekonq {background: url(./icons/32/rekonq.png) no-repeat center center;}
+#palemoon {background: url(./icons/32/palemoon.png) no-repeat center center;}
+#seamonkey {background: url(./icons/32/seamonkey.png) no-repeat center center;}
+#tor {background: url(./icons/32/tor.png) no-repeat center center;}
+
+#windowsd {background: url(./icons/32/windowsd.png) no-repeat center center;}
+#linux {background: url(./icons/32/linux.png) no-repeat center center;}
+#mac {background: url(./icons/32/mac.png) no-repeat center center;}
+#chromeOS {background: url(./icons/32/chromeOS.png) no-repeat center center;}
+#ibm {background: url(./icons/32/ibm.png) no-repeat center center;}
+#freebsd {background: url(./icons/32/freebsd.png) no-repeat center center;}
+#openbsd {background: url(./icons/32/openbsd.png) no-repeat center center;}
+#netbsd {background: url(./icons/32/netbsd.png) no-repeat center center;}
