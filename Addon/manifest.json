@@ -1,0 +1,29 @@
+{
+   "background": {
+      "page": "lib/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": "data/icons/16.png",
+      "default_popup": "data/popup/popup.html",
+      "default_title": "User-Agent Switcher"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "data/content_script/chrome/chrome.js", "data/content_script/inject.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Quickly and easily switch between popular user-agent strings.",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "48": "data/icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn8x9M3g2wEOySlKCzsq+5nJMmqr6tbTKl2DCXSu3OdnAqUjsv8pWvNMRqdj/ceN+CkhRXBUmP5GMFnu/bSLkS47l+OPItyK7DTH2TTGneF6eMDkjNAOz2DQl+XtB8f3alzjLj6zi2mhvk3jxuCJtAvNaCg5Aw/C7/u4g6l4hrTfslZVyeNTUUAbPt/1uoN1iWEkYhtGWmCnPAE27GEde6RuQPe954e2cKDEB5msbmeSxg1bjNw5dNb6XkL0xmDae5gwp7WdhotsJWi7xeYDtUcY7AxZvNVrNmUlYuw/Bs9sXLvcOHz8ClRjr9Kzdjon5Imced43sEhspLpCu4VaVIwIDAQAB",
+   "manifest_version": 2,
+   "name": "User-Agent Switcher",
+   "permissions": [ "tabs", "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "short_name": "useragentswitcher",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.3.9"
+}
