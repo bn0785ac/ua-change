@@ -110,7 +110,7 @@ var defaultUAObj = {
     openbsd: "Mozilla/5.0 (X11; U; OpenBSD amd64; es_VE; rv:25.6) Gecko/20150723 FGecko/20110622 SeaMonkey/2.4a1",
     netbsd: "Mozilla/5.0 (X11; U; NetBSD i386; en-GB; rv:25.6) Gecko/20150723 FGecko/20110622 SeaMonkey/2.4a1"
   },
-  Tor: {
+  tor: {
     windowsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
     mac: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
     linux: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",     
